@@ -23,9 +23,9 @@ from rich.panel import Panel
 
 
 # Configuration
-#SNIP_DIR = Path.home() / ".snippets"
 
-SNIP_DIR = Path(".snippets")
+#SNIP_DIR = Path().home / ".snippets")
+SNIP_DIR = Path.home() / ".snippets"
 FILES_DIR = SNIP_DIR / "files"
 DB_PATH = SNIP_DIR / "snippets.db"
 

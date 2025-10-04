@@ -17,7 +17,8 @@ from textual import on
 from rich.console import Console
 from rich.panel import Panel
 
-SNIP_DIR = Path(".snippets")
+#SNIP_DIR = Path(".snippets")
+SNIP_DIR = Path.home() / ".snippets"
 FILES_DIR = SNIP_DIR / "files"
 DB_PATH = SNIP_DIR / "snippets.db"
 
